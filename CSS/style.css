@@ -1,0 +1,49 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-header{
+	height: 50px;
+}
+
+.jumbotron{
+	background-color:#3CB371;
+	height: 250px;
+}
+.navbar-brand, .fa{
+	color: #3CB371;
+	font-size: 25px;
+	font-weight: bold;
+}
+.text-center{
+	font-size: 32px;
+}
+.form-control{
+	font-family:  'FontAwesome';
+	color: #D3D3D3;
+}
+.title{
+	color: #3CB371;
+}
+h4{
+	color: #3CB371;
+	text-align: center;
+}
+.footer {
+   position: fixed;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+  }
+
+
+#movies img, #movie img{
+	width: 100%;
+}
+@media(min-width: 960px){
+#movies .col-md-3 .well{
+	height: 390px;
+}
+#movies .col-md-3 img{
+	height: 240px;
+}
+}
